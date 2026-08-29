@@ -1,0 +1,28 @@
+<?php
+$num1 = readline("Enter num1");
+$num2 = readline("Enter num2");
+
+$op = trim(readline("Option(/, -, +, *):"));
+
+switch ($op) {
+    case "/":
+        echo ($num1 / $num2);
+        break;
+    
+    
+    case "-":
+        echo ($num1 - $num2);
+        break;
+    
+    case "+":
+        echo ($num1 + $num2);
+        break;
+   
+    case "*":
+        echo ($num1 * $num2);
+        break;
+    
+    default:
+        echo "Wrong kaw daii!!";
+}
+?>
