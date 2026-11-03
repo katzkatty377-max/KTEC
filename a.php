@@ -1,4 +1,5 @@
 <?php
+//first problem
 $usage = array(120, 95, 150,  80);
 $total = 0;
 $bill = 0;
@@ -14,4 +15,18 @@ foreach ($usage as $usage) {
 }
 echo "Total Usage: " . $total . " kWh" . "\n";
 echo "Total Bills: ₱" . $bill;
+?>
+
+<?php
+//second problem
+$i = 0;
+$total = 0;
+
+do {
+  $i++;
+  $total += $i;
+  
+} while ($i <= 9);
+
+echo "sum: $total";
 ?>
