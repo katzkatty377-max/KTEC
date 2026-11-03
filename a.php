@@ -30,3 +30,23 @@ do {
 
 echo "sum: $total";
 ?>
+
+
+<?php
+//third problem  
+$count = 1;  
+  
+do{  
+  echo "Hello Php!" . "\n";  
+  $count++;  
+} while ($count <= 5);  
+  
+?>
+
+
+<?php
+//fourth problem
+for ($i = 1; $i <= 6; $i++) {
+    echo "Programming" . "\n";
+}
+?>
